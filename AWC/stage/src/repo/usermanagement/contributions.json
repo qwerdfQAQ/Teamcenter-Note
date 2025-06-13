@@ -1,7 +1,0 @@
-{
-  "postLoginPipeline": [
-    "js/geographyLoginPipelineContrib",
-    "js/confidentialityAgreementPipelineContrib",
-    "js/gdprConsentPipelineContrib"
-  ]
-}

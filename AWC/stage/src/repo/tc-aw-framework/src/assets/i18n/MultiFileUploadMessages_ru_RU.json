@@ -1,7 +1,0 @@
-{
-    "fileAttachTitle": "Вложения файлов",
-    "dropHere": "Бросить здесь",
-    "chooseFile": "Выбрать файл",
-    "removeFileBtnTooltip": "Удалить файл",
-    "failureToAttachFiles": "\"{0}\" не был добавлен, поскольку данный тип файла не разрешается как вложение."
-}

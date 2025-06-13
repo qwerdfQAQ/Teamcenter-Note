@@ -1,7 +1,0 @@
-{
-    "add": "Adicionar",
-    "cancel": "Cancelar",
-    "confirmAddPdf": "\"{0}\" serão adicionados a \"{1}\"",
-    "addPdfError": "\"{0}\" não foi adicionado por causa de um erro do sistema",
-    "deletePdfError": "\"{0}\" não foi excluído por causa de um erro do sistema"
-}
