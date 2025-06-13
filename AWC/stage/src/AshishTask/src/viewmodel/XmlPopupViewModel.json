@@ -1,0 +1,62 @@
+{
+    "schemaVersion": "1.0.0",
+    "actions": {
+        "closePopup": {
+            "actionType": "JSFunction",
+            "method": "hide",
+            "inputData": {
+                "popupId": "{{data.popupId}}"
+            },
+            "deps": "js/popupService"
+        },
+        "displayPopup": {
+            "actionType": "popup",
+            "inputData": {
+                "options": {
+                    "preset": "modal",
+                    "caption": "{{i18n.signUp}}",
+                    "view": "popup",
+                    "draggable": true,
+                    "resizable": true,
+                    "ignoreLimit": true,
+                    "width": "700",
+                    "height": "300",
+                    "anchor": "closePopupAnchor",
+                    "clickOutsideToClose": true
+                }
+            },
+            "outputData": {
+                "popupId": "id"
+            }
+        },
+        "buttonActions": {
+            "actionType": "JSFunction",
+            "method": "alert",
+            "inputData": {
+                "data": "Button has been clicked"
+            },
+            "deps": "js/generateXMLPopUpService"
+        }
+    },
+    "onEvent": [
+        {
+            "eventId": "showcaseApp.closePopup",
+            "action": "closePopup",
+            "cacheEventData": true
+        }
+    ],
+    "data": {
+        "GenerateXml": {
+            "displayName": "Generate XML",
+            "type": "STRING",
+            "isRequired": "false",
+            "isEditable": "true",
+            "dbValue": "string2"
+        }
+    },
+    "i18n": {
+        "signUp": [
+            "AshishTaskMessages"
+        ]
+    }
+}

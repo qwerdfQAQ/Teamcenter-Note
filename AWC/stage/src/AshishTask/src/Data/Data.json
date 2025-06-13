@@ -1,0 +1,15 @@
+{
+    "totalResults": 2,
+    "Search": [
+        {
+            "cellHeader1": "The Matrix header1",
+            "hasThumbnail": false,
+            "hasTypeIcon": false
+        },
+        {
+            "cellHeader1": "The Reloaded",
+            "hasThumbnail": false,
+            "hasTypeIcon": false
+        }
+    ]
+}
